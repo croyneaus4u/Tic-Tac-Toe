@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB72EE041DD37466004B38D3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB72EE031DD37466004B38D3 /* Utility.swift */; };
 		DBE64B031DD251CA008A7910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE64B021DD251CA008A7910 /* AppDelegate.swift */; };
 		DBE64B051DD251CA008A7910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE64B041DD251CA008A7910 /* ViewController.swift */; };
 		DBE64B081DD251CA008A7910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE64B061DD251CA008A7910 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB72EE031DD37466004B38D3 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		DBE64AFF1DD251CA008A7910 /* TicTacToeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE64B021DD251CA008A7910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE64B041DD251CA008A7910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				DBE64B021DD251CA008A7910 /* AppDelegate.swift */,
+				DB72EE031DD37466004B38D3 /* Utility.swift */,
 				DBE64B221DD251E6008A7910 /* BoardController.swift */,
 				DBE64B231DD251E6008A7910 /* BoardView.swift */,
 				DBE64B041DD251CA008A7910 /* ViewController.swift */,
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB72EE041DD37466004B38D3 /* Utility.swift in Sources */,
 				DBE64B251DD251E6008A7910 /* BoardView.swift in Sources */,
 				DBE64B051DD251CA008A7910 /* ViewController.swift in Sources */,
 				DBE64B031DD251CA008A7910 /* AppDelegate.swift in Sources */,
@@ -412,6 +416,7 @@
 				DBE64B1E1DD251CA008A7910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBE64B1F1DD251CA008A7910 /* Build configuration list for PBXNativeTarget "TicTacToeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				DBE64B211DD251CA008A7910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

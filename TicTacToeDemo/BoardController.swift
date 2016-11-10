@@ -11,7 +11,7 @@ import Foundation
 class Board {
     init() {}
     
-    var handleForWinningPattern: (([Int]) -> Void)?
+    var winningPattern: [Int]?
     
     init(copy: Board) {
         boardPositionArray = copy.boardPositionArray
@@ -31,7 +31,6 @@ class Board {
         case valid
     }
     
-    // Note that setting board is set by value, ie a copy is made of the array
     var boardPositionArray: [PlayerType] = [PlayerType](repeating: .Nobody, count: 9)
     
     func move(_ newMove: Int, player: PlayerType) -> BoardState {
@@ -62,7 +61,7 @@ class Board {
             [3, 6, 9],
             [1, 5, 9],
             [3, 5, 7]]
-        // Iterate through winning patterns
+
         var hasWon = true
         _ = 0
         for pattern in winningPatterns {
@@ -75,7 +74,7 @@ class Board {
             }
             if hasWon == true {
                 print("Winning Pattern \(pattern)")
-                handleForWinningPattern?(pattern)
+                winningPattern = pattern
                 break
             }
         }
